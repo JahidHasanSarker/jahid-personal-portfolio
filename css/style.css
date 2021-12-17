@@ -829,6 +829,20 @@ transition: opacity 0.5s ease-in-out;
     background-color: var(--main-color);
 } 
 
+.details-thumb img {
+    border-radius: 10px;
+    margin-bottom: 80px;
+    border: 2px solid var(--white-alpha-40);
+} 
+.blog-item h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon{
+    margin-right: 10px;
+}
 /* Responsive */
 
 @media(max-width:991px){
